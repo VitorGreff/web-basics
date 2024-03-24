@@ -1,0 +1,82 @@
+ @font-face {
+     font-family: "file";
+     src: url("assets/fonts/young-serif/YoungSerif-Regular.ttf") format("truetype");
+ }
+
+ .attribution {
+     font-size: 11px;
+     text-align: center;
+ }
+
+ .attribution a {
+     color: hsl(228, 45%, 44%);
+ }
+
+ body {
+     background-color: antiquewhite;
+     font-family: "file", fallback, sans-serif;
+ }
+
+ .recipe_container {
+     background-color: white;
+     border: 10px solid white;
+     border-radius: 15px;
+     width: 50%;
+     margin: 50px auto;
+     padding: 30px;
+ }
+
+ .recipe_container>img {
+     width: 100%;
+     border-radius: 15px;
+ }
+
+ .recipe_container>p {
+     font-size: 1.2em;
+ }
+
+ .prep {
+     background-color: #f0cff73e;
+     margin: auto;
+     border-radius: 15px;
+     padding: 10px;
+     padding-top: 5px;
+ }
+
+ .list {
+     display: flex;
+     flex-direction: column;
+     gap: 15px;
+ }
+
+ .list>li {
+     padding-left: 15px;
+ }
+
+ .list_title {
+     color: rgb(100, 59, 8);
+
+ }
+
+ table {
+     width: 100%;
+     border-collapse: collapse;
+ }
+
+ tr {
+     border-bottom: 1px solid black;
+ }
+
+ tr:last-child {
+     border-bottom: none;
+ }
+
+ td {
+     padding: 20px;
+     padding-left: 30px;
+ }
+
+ .value {
+     color: rgb(100, 59, 8);
+     font-weight: bold;
+ }
