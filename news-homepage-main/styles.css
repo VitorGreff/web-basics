@@ -1,0 +1,161 @@
+* {
+    background-color: hsl(36, 100%, 99%);
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.page-header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.left-header {
+    width: 50%;
+    display: flex;
+    font-size: 30px;
+}
+
+.right-header {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.right-header span {
+    margin-right: 40px;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.content-intro {
+    display: flex;
+    flex-direction: row;
+}
+
+.left-intro {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+}
+
+.image-intro img {
+    width: 900px;
+    max-width: 100%;
+}
+
+.left-intro-bottom {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.bottom-title {
+    width: 50%;
+    font-size: 75px;
+    font-weight: 700;
+}
+
+.bottom-text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.699);
+}
+
+.read-more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    width: 250px;
+    height: 60px;
+    background-color: hsl(5, 85%, 63%);
+    color: white;
+}
+
+.right-intro {
+    width: 30%;
+    margin-left: 40px;
+    margin-right: 100px;
+    background-color: hsl(240, 100%, 5%);
+    display: flex;
+    flex-direction: column;
+}
+
+.right-new {
+    background-color: inherit;
+    color: hsl(35, 77%, 62%);
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.right-title {
+    background-color: inherit;
+    color: white;
+    margin-left: 30px;
+}
+
+.right-text {
+    background-color: inherit;
+    color: rgba(255, 255, 255, 0.608);
+    margin-top: 0;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid grey;
+    margin-top: 45px;
+    width: 90%;
+}
+
+.page-footer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+}
+
+.left-card {
+    width: 25%;
+    height: 160px;
+    margin-right: 10px;
+}
+
+.right-card {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.right-card h1 {
+    color: hsl(233, 8%, 79%);
+    font-size: 40px;
+    margin-bottom: 1rem;
+    margin-top: 0;
+}
+
+.right-card span {
+    font-weight: 700;
+    font-size: 20px;
+    color: black;
+}
+
+.right-card p {
+    font-weight: 200;
+}
